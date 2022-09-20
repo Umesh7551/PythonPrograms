@@ -1,0 +1,16 @@
+# Program to demonstrating Arithmetic Operators
+#Aop.py
+a=int(input("Enter Value of a:"))
+b=int(input("Enter Value of b:"))
+print("=========================")
+print("="*25)
+print("Arithmetic Operators")
+print("="*25)
+print("\t Sum ({},{})={}".format(a,b,a+b))
+print("\n\t Sub ({},{})={}".format(a,b,a-b))
+print("\n\t Mul ({},{})={}".format(a,b,a*b))
+print("\n\t Div ({},{})={}".format(a,b,a/b))
+print("\n\t Floor Div ({},{})={}".format(a,b,a//b))
+print("\n\t Mod ({},{})={}".format(a,b,a%b))
+print("\n\t Exp ({},{})={}".format(a,b,a**b))
+print("="*25)
